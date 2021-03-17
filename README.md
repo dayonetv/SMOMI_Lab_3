@@ -14,7 +14,8 @@
 
 <img src="./epoch_loss_for_different_lr.svg">
 
-* Анализ полученных результатов  
-
 
 ![legend_loss](https://user-images.githubusercontent.com/59259102/111492201-86e02480-874d-11eb-8213-10a1a49438bb.jpg)
+
+* Анализ полученных результатов  
+
