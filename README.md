@@ -24,16 +24,15 @@
 Синяя линия - на валидации  
 Оранжевая линия - на обучении  
 * График метрики точности для нейронной сети EfficientNet-B0 (случайное начальное приближение):  
-<img src="./epoch_categorical_accuracy_for_different_lr.svg">
+<img src="./epoch_categorical_accuracy_decays_exp_step.svg">
 
 ![legend_accuracy_decays](https://user-images.githubusercontent.com/59259102/111536220-06d0b380-877b-11eb-8467-e2fdf29862b5.jpg)
 
 * График функции потерь для нейронной сети EfficientNet-B0 (случайное начальное приближение):  
 
 
-<img src="./epoch_loss_for_different_lr_1.svg">
+<img src="./epoch_loss_decays_exp_step.svg">
 
-<img src="./epoch_loss_for_different_lr.svg">
 
 ![legend_loss_decays](https://user-images.githubusercontent.com/59259102/111536241-0d5f2b00-877b-11eb-8afd-c5455de0508d.jpg)
 
