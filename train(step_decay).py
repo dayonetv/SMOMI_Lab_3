@@ -58,11 +58,12 @@ def create_dataset(filenames, batch_size):
     .prefetch(tf.data.AUTOTUNE)
 
 def step_decay(epoch,layer):
-  initial_lrate = 0.1
+  initial_lrate = 0.001
   drop = 0.5
-  epochs_drop = 10.0
+  epochs_drop = 5.0
   lrate = initial_lrate * math.pow(drop,math.floor((1+epoch)/epochs_drop))
   return lrate
+
 
 def build_model():
   inputs = tf.keras.Input(shape=(RESIZE_TO, RESIZE_TO, 3))
