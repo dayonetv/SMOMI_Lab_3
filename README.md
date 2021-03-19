@@ -56,10 +56,10 @@ def exp_decay(epoch,lr): # epoch - текущая эпоха
   return lrate  
 ```
 ### В результате обучения нейронной сети EfficientNet-B0 (предобученной) с применением политик изменения темпа обучения (пошаговое затухание и экспоненциальное затухание) получили следующие графики:  
-
-![legend_accuracy_decays](https://user-images.githubusercontent.com/59259102/111536220-06d0b380-877b-11eb-8467-e2fdf29862b5.jpg)  
-
+ 
 * График метрики точности для предобученной нейронной сети EfficientNet-B0 (пошаговое затухание и экспоненциальное затухание):  
+* 
+![legend_accuracy_decays](https://user-images.githubusercontent.com/59259102/111536220-06d0b380-877b-11eb-8467-e2fdf29862b5.jpg)  
 
 <img src="./epoch_categorical_accuracy_decays_exp_step.svg">  
 
