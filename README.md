@@ -67,9 +67,8 @@ def exp_decay(epoch,lr): # epoch - текущая эпоха
 В результате получили следующие графики:  
 * График метрики точности для предобученной нейронной сети EfficientNet-B0 (экспоненциальное затухание) для валидационного набора данных:   
 
-![image](https://user-images.githubusercontent.com/59259102/111868798-b167f280-8984-11eb-8110-39d823760b21.png)  
-
-
+![image](https://user-images.githubusercontent.com/59259102/111869037-06f0cf00-8986-11eb-8a8b-ff058956860f.png)  
+ 
 <img src="./epoch_categorical_accuracy_exp_diff_param.svg">  
 
 * График функции потерь для предобученной нейронной сети EfficientNet-B0 (экспоненциальное затухание) для валидационного набора данных:    
