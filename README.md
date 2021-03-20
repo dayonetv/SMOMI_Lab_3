@@ -73,12 +73,12 @@ def exp_decay(epoch,lr): # epoch - текущая эпоха
 ***
 ## Нахождение оптимальных параметров для пошагового затухания
 Для нахождения оптимальных параметров пошагового затухания, были проведены обучения с различными параметрами, такими как (initial_lrate - начальный темп обучения, drop - во сколько раз будет изменяться тепм обучения, epochs_drop - эпоха на которой будет изменяться темп обучения):  
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0  
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0 
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0  
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0  
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0
-+ initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0 
++ initial_lrate = 0.1, drop = 0.5, epochs_drop = 10.0  
++ initial_lrate = 0.1, drop = 0.5, epochs_drop = 5.0 
++ initial_lrate = 0.1, drop = 0.5, epochs_drop = 3.0  
++ initial_lrate = 0.01, drop = 0.5, epochs_drop = 10.0  
++ initial_lrate = 0.01, drop = 0.5, epochs_drop = 5.0
++ initial_lrate = 0.01, drop = 0.5, epochs_drop = 3.0 
 + initial_lrate = 0.001, drop = 0.5, epochs_drop = 5.0 
 В результате получили следующие графики:  
 * График метрики точности для предобученной нейронной сети EfficientNet-B0 (экспоненциальное затухание):  
