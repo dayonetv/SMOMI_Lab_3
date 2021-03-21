@@ -115,15 +115,17 @@ def exp_decay(epoch,lr): # epoch - текущая эпоха
  
 * График метрики точности для предобученной нейронной сети EfficientNet-B0 (пошаговое затухание, экспоненциальное затухание, фиксированный темп 0.001) для валидационного набора данных:  
  
-![legend_accuracy_decays](https://user-images.githubusercontent.com/59259102/111536220-06d0b380-877b-11eb-8467-e2fdf29862b5.jpg)  
+![image](https://user-images.githubusercontent.com/59259102/111912045-8f4b9e80-8a70-11eb-8f45-f45560220310.png)
 
-<img src="./epoch_categorical_accuracy_decays_exp_step.svg">  
+
+<img src="./epoch_categorical_accuracy_lr_step_exp.svg">  
 
 * График функции потерь для предобученной нейронной сети EfficientNet-B0 (пошаговое затухание, экспоненциальное затухание, фиксированный темп 0.001) для валидационного набора данных:  
 
-![legend_loss_decays](https://user-images.githubusercontent.com/59259102/111536241-0d5f2b00-877b-11eb-8afd-c5455de0508d.jpg)  
+![image](https://user-images.githubusercontent.com/59259102/111912078-ba35f280-8a70-11eb-9a3c-d67c08431b29.png)
 
-<img src="./epoch_loss_decays_exp_step.svg">  
+
+<img src="./epoch_loss_lr_step_exp.svg">  
 
 * Анализ полученных результатов  
 Исходя из полученных результатов можно отметить следующее:  
