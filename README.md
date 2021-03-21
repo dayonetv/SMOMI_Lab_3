@@ -51,7 +51,7 @@ def step_decay(epoch,lr): # epoch - текущая эпоха
 ```
 def exp_decay(epoch,lr): # epoch - текущая эпоха  
   initial_lrate = 0.001 # начальный темп обучения  
-  k = 0.11 # коэффициент в степени числа Эйлера  
+  k = 0.1 # коэффициент в степени числа Эйлера  
   lrate = initial_lrate * math.exp(-k*epoch)  
   return lrate  
 ```
